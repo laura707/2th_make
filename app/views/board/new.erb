@@ -1,0 +1,24 @@
+<div class="container">
+  <form action="/create" method="post">
+      <!--write파일로 이 파일을 전달해주겠다, post방식으로-->
+    <div class="form-group row">
+      <label for="inputEmail3" class="col-sm-2 col-form-label">제목</label>
+      <div class="col-sm-10">
+        <input type="text" name="title" class="form-control" id="title" placeholder="제목"><!--type, name(우리가 지정), id, placeholder(작성 전에 보이는 칸)바꾸기-->
+      </div>
+    </div>
+    <div class="form-group row">
+      <label for="inputPassword3" class="col-sm-2 col-form-label">내용</label>
+      <div class="col-sm-10">
+        <textarea name="content" class="form-control" rows="5" id="content"></textarea><!--name주고 id를 content로 바꿔주기/이 줄은 w3school에서 가져온 코드-->
+      <!--다른 페이지로 보내려고 할 때 부여하는 속성이 name-->
+      </div>
+    </div>
+    <div class="form-group row">
+      <div class="offset-sm-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">작성하기</button>
+      </div>
+    </div>
+  </form>
+</div>
+<!--첫번째 페이지-->
